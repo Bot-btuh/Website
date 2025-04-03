@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="Registe_p">
+        <p id="heading">
+            Registration
+        </p>
+        <form onsubmit="return validateForm() ">
+            <div id="Username">
+                <label for="Usrnm">
+                    Enter your Username:
+                </label>
+                <input type="text" id = "Usrnm" placeholder="Username" name="Username">
+            </div>
+            <div id="email">
+                <label for="em">
+                    Enter your Email:
+                </label>
+                <input type="text" id = "em" placeholder="Email" name="Email">
+            </div>
+            <div id="Password">
+                <label for="Passwrd">
+                    Enter your password:
+                </label>
+                <input type="password" id = "Passwrd" placeholder="Password" name="Password">
+            </div>
+            <input type="submit" id = "Button" value="Submit">
+        </form>
+    </div>
+    <script src="Uservalidation.js"></script>
+</body>
+</html>
